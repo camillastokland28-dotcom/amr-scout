@@ -1,0 +1,3 @@
+gene_id,ab_class,antibiotics,note
+blaCTX-M-15,Cephalosporins,ceftriaxone;cefotaxime;ceftazidime,ESBL beta-lactamase
+mecA,Penicillins;Cephalosporins,oxacillin;methicillin,MRSA determinant
