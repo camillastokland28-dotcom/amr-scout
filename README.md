@@ -1,15 +1,23 @@
-# amr-scout (MVP)
+# 🧬 amr-scout
 
-Et lite CLI-verktøy som (etter hvert) leser et genom-FASTA og rapporterer sannsynlig antibiotika-resistens basert på AMR-gener/mutasjoner.
+Et lite CLI-verktøy (MVP) for å skanne bakterielle genomer og rapportere sannsynlig antibiotikaresistens basert på kjente AMR-gener og mutasjoner.  
+🎯 Fokus: diagnostikk fremfor taksonomi – målrettet antibiotikabruk.
 
-## Plan
-Fase 1: BLAST av genom mot AMR-gen-database → mappe funn til antibiotikaklasser → enkel rapport.
+---
 
-## Status
-- MVP-skjelett er på plass ✅
-- Neste steg: koble inn BLAST-støtte
+## 🚀 Status
+- MVP-skjelett på plass ✅
+- Input-validering fungerer (genom + regler) ✅
+- Neste steg: koble inn **BLAST+** for genmatching
 
+---
 
-## Kjapp start
+## 📦 Installasjon
+Klon repoet og sett opp et virtuelt miljø:
+
 ```bash
-python -m amr_scout.cli --help
+git clone https://github.com/camillastokland28-dotcom/amr-scout.git
+cd amr-scout
+python3 -m venv .venv
+source .venv/bin/activate
+pip install -r requirements.txt   # (kommer snart)
